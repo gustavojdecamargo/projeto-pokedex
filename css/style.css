@@ -11,19 +11,22 @@ body {
   text-align: center;
   background: linear-gradient(to bottom, #6ab7f5, #fff);
   min-height: 100vh;
+  
 }
 
 header{
     width: 100%;
     text-align: start;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #62a8e1;
 }
 
 header > ul{
     list-style: none;
-    padding: 15px;
     display: flex;
     gap: 32px;
-    padding: 24px 15px;
+    padding: 20px 15px;
 }
 
 li > a{
@@ -45,6 +48,7 @@ main {
   margin-top: 2%;
   padding: 15px;
   position: relative;
+  text-align: center;
 }
 
 .pokedex {
@@ -118,4 +122,40 @@ main {
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
+}
+
+.container{
+  text-align: start;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  width: 96vw;
+  padding: 24px;
+  margin-left: -16px;
+  margin-top: -52px;
+  margin-right: -16px;
+  align-items: center;
+
+}
+
+.container > p, h1{
+  padding: 16px 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container-2{
+  text-decoration: none;
+  width: auto;
+  max-width: 800px;
+}
+
+img{
+  max-width: 430px;
+}
+
+.container-2 > p{
+  padding: 16px 0;
+  font-weight: 600;
 }
